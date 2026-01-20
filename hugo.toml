@@ -51,3 +51,26 @@ theme = "careercanvas"
   name = "Contact"
   url = "/#contact"
   weight = 6
+
+
+[params.colors.semantic]
+  primary = "purple_500"        # Use existing purple
+  primary_dark = "purple_700"
+  primary_light = "purple_400"
+  primary_lighter = "purple_300"
+
+# Pexels Background Configuration
+# This section configures the random background images for the hero section
+# The API key is securely handled via environment variables (see comments above)
+[params.pexels]
+# Image search queries for random background images
+# Customize this list to change the types of images that appear
+# The system will randomly select from these queries for each page loads
+    queries = [
+        # "galaxy", "nebula", "planet", "astronomy",
+        # "solar system", "black hole", "constellation", "meteor",
+        # "comet", "asteroid", "space station", "satellite",
+        # "structural long span bridges", "structural skycrapers", "astronomy nasa pictures",
+        "universe solar systems nasa pictures", "structural long span bridges",
+        "nebula nasa pictures",
+    ]
