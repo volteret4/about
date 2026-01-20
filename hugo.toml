@@ -1,3 +1,53 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "careercanvas"
+
+[params]
+  name = "Pablo Suárez Mula"
+  tagline = "Melómano"
+  location = "Jerez de la Frontera"
+  email = "pablosumu@protonmail.com"
+  profile_image = "/images/your-profile.jpg"
+  description = "Your description"
+  author = "Your Name"
+
+  # Social Media
+  linkedin_url = "https://linkedin.com/in/yourprofile"
+  github_url = "https://github.com/volteret4"
+
+  # Resume/CV
+  resume_url_es = "/files/your-resume-en.pdf"  # Path to English resume
+#  resume_url_fr = "/files/your-resume-fr.pdf"  # Path to French resume (optional)
+  resume_label = "Full Resume"
+
+  # Social Icons
+  [[params.social]]
+    icon = "linkedin-in"
+    url = "https://linkedin.com/in/yourprofile"
+
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/volteret4"
+
+[[menu.main]]
+  name = "About"
+  url = "/#about"
+  weight = 2
+
+[[menu.main]]
+  name = "Scripts"
+  url = "/#scripts"
+  weight = 4
+
+[[menu.main]]
+  name = "Experience"
+  url = "/#experience"
+  weight = 3
+
+[[menu.main]]
+  name = "Blogs"
+  url = "/#blogs"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 6
